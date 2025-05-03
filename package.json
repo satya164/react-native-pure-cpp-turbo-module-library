@@ -144,22 +144,16 @@
         {
           "project": "tsconfig.build.json"
         }
-      ],
-      "codegen"
+      ]
     ]
   },
   "codegenConfig": {
     "name": "PureCppTurboModuleLibrarySpec",
     "type": "modules",
     "jsSrcsDir": "src",
-    "outputDir": {
-      "ios": "ios/generated",
-      "android": "android/generated"
-    },
     "android": {
       "javaPackageName": "com.purecppturbomodulelibrary"
-    },
-    "includesGeneratedCode": true
+    }
   },
   "create-react-native-library": {
     "languages": "kotlin-objc",
